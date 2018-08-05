@@ -34,7 +34,7 @@ export default {
 
 @for $i from 1 through 12 {
   .col-#{$i} {
-    flex: 0 0 100% / 12 * #{$i};
+    flex: 0 0 calc(100% / 12 * #{$i});
     max-width: 100%;
   }
 }
