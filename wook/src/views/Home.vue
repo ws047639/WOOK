@@ -4,7 +4,7 @@
      <div class="row">
        <div class="col-6">
          <div class="img-block">
-           <img src="https://hexschool.github.io/THE_F2E_Design/week5-comic%20viewer/#artboard25">
+           <img src="https://hexschool.github.io/THE_F2E_Design/week5-comic%20viewer/assets/comic%20cover.png">
          </div>
        </div>
        <div class="col-6">
@@ -85,7 +85,7 @@
 
 .comic-detail {
   padding: 24px;
-  .detall-group {
+  .detail-group {
     margin-top: 8px;
     strong {
       font-size: 16px;
@@ -120,5 +120,6 @@
       background-color: #000;
       color: #fff;
     }
+}
 
 </style>

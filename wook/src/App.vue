@@ -23,7 +23,7 @@ export default {
 }
 
 .container {
-  width: 720;
+  width: 720px;
   margin: 0;
 }
 
