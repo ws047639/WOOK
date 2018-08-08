@@ -49,8 +49,8 @@
              All Chapters
            </div>
            <ul>
-            <li>Chapter 1: The F2E Challenge STrat!</li>
-            <li>Chapter 2: Todo List is GOing Crazy!<span class="new-chap">NEW</span></li>
+            <p>Chapter 1: The F2E Challenge STrat!</p>
+            <p>Chapter 2: Todo List is GOing Crazy!<span class="new-chap">NEW</span></p>
            </ul>
          </div>
        </div>
@@ -113,12 +113,19 @@
 
 .chapters {
     margin-top: 8px;
+    ul {
+      border:4px solid;
+    }
+    
     .chap-title {
       display: inline-block;
       font-size: 24px;
       line-height: 28px;
       background-color: #000;
       color: #fff;
+      
+      
+      
     }
 }
 

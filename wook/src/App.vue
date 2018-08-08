@@ -24,12 +24,14 @@ export default {
 
 .container {
   width: 720px;
-  margin: 0;
+  margin: 0 auto;
+  
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 @for $i from 1 through 12 {
